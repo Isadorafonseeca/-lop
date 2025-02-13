@@ -1,0 +1,59 @@
+/* Estilo geral */
+body {
+    background-color: rgb(251, 248, 253); /* Fundo preto */
+    color: #eb18a5; 
+    font-family: initial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #eb18a5; /* Rosa para o texto do cabeçalho */
+}
+
+
+/* Estilo do rodapé */
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #eb18a5; /* Rosa para o texto do rodapé */
+    margin-right: 9px;
+}
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: #eb18a5;
+}
+
+footer p {
+    margin: 5px 0 0; /* Espaço acima do parágrafo */
+    font-size: 16px;
+    text-align: center;
+}
+
+footer img {
+    width: 160px;
+    height: auto;
+    border-radius: 5px;
+}

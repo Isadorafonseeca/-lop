@@ -1,0 +1,54 @@
+/* Define as propriedades básicas do corpo da página */
+body {
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os itens em uma coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura da viewport */
+    background-color: rgb(251, 248, 253); /* Cor de fundo da página */
+    margin: 0; /* Remove margem padrão */
+    color: #eb18a5; /* Cor do texto */
+    padding: 0; /* Remove padding padrão */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%; /* Largura total */
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os itens em uma coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px; /* Padding interno */
+    color: #eb18a5; /* Cor rosa para o texto do cabeçalho */
+}
+
+/* Estilo do título do cabeçalho */
+header h1 {
+    margin: 0; /* Remove margem padrão */
+}
+
+
+/* Estilo do contêiner de resposta */
+.response-container {
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os itens em uma coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    border: 1px solid #ccc; /* Borda clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Padding interno */
+    background-color: white; /* Cor de fundo branca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do contêiner */
+    width: 300px; /* Largura fixa */
+    margin-top: 20px; /* Espaço superior */
+}
+
+/* Estilo dos parágrafos dentro do contêiner de resposta */
+.response-container p {
+    margin: 10px 0; /* Margem vertical */
+}
+
+
+
+
+

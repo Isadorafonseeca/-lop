@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz sobre mim</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz sobre mim</h1>
+        
+    </header>
+    
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question">Pergunta aqui</h2>
+            <div id="options">
+                <label><input type="radio" name="option" value="0"> <span id="option0">Opção 1</span></label><br>
+                <label><input type="radio" name="option" value="1"> <span id="option1">Opção 2</span></label><br>
+                <label><input type="radio" name="option" value="2"> <span id="option2">Opção 3</span></label><br>
+                <label><input type="radio" name="option" value="3"> <span id="option3">Opção 4</span></label><br>
+            </div>
+            <button onclick="nextQuestion()">Próxima</button>
+        </div>
+        <h2 id="score-container" style="display:none;">Pontuação: <span id="score"></span>/5</h2>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

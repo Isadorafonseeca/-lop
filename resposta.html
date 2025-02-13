@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contato - Resposta</title>
+    <link href="css/resposta.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <hr />
+    <div class="response-container">
+        <h2>Parabéns, seu formulário foi enviado com sucesso!</h2>
+        <h3>Informações Coletadas:</h3>
+        <p><strong>Nome:</strong> <span id="response-name"></span></p>
+        <p><strong>E-mail:</strong> <span id="response-email"></span></p>
+        <p><strong>Whatsapp:</strong> <span id="response-whatsapp"></span></p>
+        <p><strong>Mensagem:</strong> <span id="response-message"></span></p>
+        <div class="social-links">
+            
+        </div>
+    </div>
+    <script>
+        // Obtém os parâmetros da URL.
+        const urlParams = new URLSearchParams(window.location.search);
+        // Define os valores nos elementos HTML correspondentes.
+        document.getElementById('response-name').innerText = urlParams.get('name');
+        document.getElementById('response-email').innerText = urlParams.get('email');
+        document.getElementById('response-whatsapp').innerText = urlParams.get('whatsapp');
+        document.getElementById('response-message').innerText = urlParams.get('message');
+    </script>
+</body>
+
+</html>
